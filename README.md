@@ -24,15 +24,15 @@ This lab covers PyTorch fundamentals, CNN training on CIFAR-10, and transfer lea
 | Experiment | Activation | Optimizer | LR | Epochs | Best Epoch | Test Accuracy |
 |---|---|---|---|---|---|---|
 | Exp 1 | LeakyReLU | SGD (momentum=0.9) + StepLR | 0.01 | 120 | 85 | 85.96% |
-| Exp 2 | LeakyReLU | Adam | 0.001 | 40 | 38 | 83.84% |
-| Exp 3 | Tanh | Adam | 0.001 | 160 | 154 | 81.88% |
+| Exp 2 | LeakyReLU | Adam | 0.001 | 80 | 75 | 85.78% |
+| Exp 3 | Tanh | Adam | 0.001 | 160 | 147 | 81.69% |
 
 ### Task 0.2.1: Transfer Learning - AlexNet on CIFAR-10
 
 | Experiment | Method | Epochs | Best Epoch | Test Accuracy |
 |---|---|---|---|---|
 | Fine-tuning | All layers trainable | 10 | 5 | 90.23% |
-| Feature Extraction | Only classifier trainable | 40 | 23 | 84.07% |
+| Feature Extraction | Only classifier trainable | 40 | 34 | 83.74% |
 
 ### Task 0.2.2: Transfer Learning - MNIST to SVHN
 
